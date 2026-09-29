@@ -27,7 +27,7 @@ pipeline:
             type: KubernetesDirect
             spec:
               connectorRef: sachit_build_farm_k8s_connector
-              namespace: harness_delegate_ng
+              namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
